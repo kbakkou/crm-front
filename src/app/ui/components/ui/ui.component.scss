@@ -1,0 +1,30 @@
+.ui {
+  height: 100vh;
+}
+
+.content {
+  background: var(--app-light);
+}
+
+.close-nav {
+  width: 0px;
+}
+
+header {
+  background: var(--app-darklight);
+}
+
+aside {
+  background: var(--app-dark);
+}
+
+nav {
+  width: 250px;
+  transition: 500ms;
+}
+
+footer {
+  background: var(--app-primary);
+  color: var(--app-light);
+  text-align: center;
+}

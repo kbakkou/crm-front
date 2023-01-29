@@ -1,0 +1,3 @@
+<app-template-container title="Modifier la commande" *ngIf="order$ |async as order">
+  <app-form-order [init]="order" (submitted)="action($event)"></app-form-order>
+</app-template-container>

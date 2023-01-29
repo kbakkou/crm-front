@@ -1,0 +1,12 @@
+.nav-link {
+  color: var(--app-light);
+}
+
+.nav-link:hover {
+  color: var(--app-primary);
+}
+
+.active {
+  background: var(--app-light);
+  color: var(--app-primary);
+}
